@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/user_task_manager.git
+    git clone https://github.com/flpmarin/user_task_manager.git
     ```
 
 2. Navigate to the project directory:
