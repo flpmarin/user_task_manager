@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    hola
+    <h1>hola {{$user->name}}</h1>
 </body>
 </html>
