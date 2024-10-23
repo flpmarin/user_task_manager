@@ -14,7 +14,7 @@ class TaskController extends Controller
         return view('welcome');
     }
     /**
-     * Mostrar el listado de tareas.
+     * Mostrar el listado de tareas....
      */
     public function index()
     {
