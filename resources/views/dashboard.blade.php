@@ -59,10 +59,40 @@
         h2, h3 {
             margin-top: 0;
         }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    
+
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <div>Bienvenido, {{ $user->name }}</div>
+        <div>
+            <!-- Enlace al perfil -->
+            <a href="{{ route('profile.show') }}"> perfil</a>
+
+            <!-- Formulario para cerrar sesión -->
+            <form action="{{ route('logout') }}" method="POST" style="display: inline;">
+                @csrf
+                <button type="submit" style="background:none;border:none;color:white;cursor:pointer;padding:0;">Log Out</button>
+            </form>
+        </div>
+    </div>
+
     <div class="container">
         <!-- Mensaje de éxito -->
         @if (session('success'))
@@ -70,7 +100,7 @@
                 {{ session('success') }}
             </div>
         @endif
-        <h2>Hola, {{ $user->name }}</h2>
+
         <!-- Formulario para agregar nueva tarea -->
         <h2>Agregar nueva tarea</h2>
         <form action="{{ route('tasks.store') }}" method="POST" class="mb-6">
