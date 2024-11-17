@@ -66,7 +66,3 @@ This project is part of my learning journey with Laravel and web development for
 - Adding support for task categories or labels.
 - Introducing notifications or reminders for upcoming tasks.
 - Potential API development for mobile app integration.
-
-## Contact
-
-If you have any questions or suggestions, feel free to reach out: marinbecerra.felipe@gmail.com
