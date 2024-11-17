@@ -2,6 +2,8 @@
 
 This is a simple **to-do list application** built with Laravel, featuring user authentication and CRUD operations. Each user can manage their own tasks, ensuring privacy and control over personal task data. 
 
+![Project Preview](./img.webp)
+
 ## Features
 
 - **User Authentication**: Users can sign up, log in, and manage their own tasks securely.
