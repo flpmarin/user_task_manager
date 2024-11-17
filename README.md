@@ -56,7 +56,7 @@ To run this project locally, follow these steps:
 
 ## Why this Project?
 
-This project is part of my learning journey with Laravel and web development. It demonstrates my ability to create user-driven applications with secure authentication and task management, which are essential in many real-world scenarios.
+This project is part of my learning journey with Laravel and web development for Data-Access Class
 
 ## Future Improvements
 
@@ -67,4 +67,4 @@ This project is part of my learning journey with Laravel and web development. It
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out via email: flpmarin@digitechfp.com
+If you have any questions or suggestions, feel free to reach out: marinbecerra.felipe@gmail.com
